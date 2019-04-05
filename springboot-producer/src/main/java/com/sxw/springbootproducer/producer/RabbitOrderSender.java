@@ -4,7 +4,7 @@ import com.sxw.entity.Order;
 import com.sxw.springbootproducer.constant.Constants;
 import com.sxw.springbootproducer.mapper.BrokerMessageLogMapper;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.rabbit.support.CorrelationData;
+import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

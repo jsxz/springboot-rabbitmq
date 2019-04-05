@@ -3,6 +3,7 @@ package com.sxw.entity;
 import java.io.Serializable;
 
 public class Order implements Serializable {
+    private static final long serialVersionUID = -1549828290149706726L;
     private int id;
     private String name;
     private String messageId;
